@@ -1,4 +1,4 @@
-var origin = [window.innerWidth - 150, window.innerHeight - 100];
+var origin = [window.innerWidth/2 - 50, window.innerHeight - 75];
 var t;
 
 function setup(){
