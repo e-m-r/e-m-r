@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|PT+Serif');
+
+*::selection{
+  background: pink;
+}
+
+body{
+  background: #F1F0D5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+#main{
+  background: white;
+  margin-top: -50px;
+  /*border: 1px solid rgba(0,0,0,0.1);*/
+  width: 300px;
+  height: max-content;
+  height: intrinsic;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  padding: 10px 28px;
+  z-index: 0;
+}
+
+h1{
+  font: 400 24px/24px "pt sans narrow";
+  letter-spacing: 4px;
+}
+
+h2{
+  font: 700 16px/20px "pt sans";
+  text-align: center;
+}
+
+p{
+  font: 400 16px/18px "pt serif";
+  text-align: justify;
+}
+
+p:last-child{
+  text-align: right;
+}
+
+hr{
+  opacity: 0.3;
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+canvas{
+  position: absolute;
+  z-index: -1;
+}
