@@ -17,8 +17,7 @@ body{
 
 #main{
   background: white;
-  margin-top: -50px;
-  /*border: 1px solid rgba(0,0,0,0.1);*/
+  margin: -50px auto 0px;
   width: 300px;
   height: max-content;
   height: intrinsic;
@@ -60,5 +59,7 @@ a{
 
 canvas{
   position: absolute;
+  top: 0px;
+  left: 0px;
   z-index: -1;
 }
