@@ -9,7 +9,7 @@ function setup(){
 
 function draw(){
   clear();
-  background(color(255,255,noise(t) * 50 + 200));
+  background(color(noise(t) * 50 + 200,255,255));
   stroke(0, 100);
   line(origin[0], origin[1] + 50, origin[0] + 100, origin[1] + 50);
   line(origin[0], origin[1], origin[0], origin[1] + 50);
